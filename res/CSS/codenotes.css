@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.backgroundCustomCN {
+    background: rgba(117, 195, 255, 0.904);
+    background-image: url('../img/jigsawBG.png');
+    background-repeat: repeat;
+}
+
 
 /* stylelint-disable selector-list-comma-newline-after */
 
@@ -67,6 +73,10 @@ h6 {
 .card-img-right {
     height: 100%;
     border-radius: 0 3px 3px 0;
+}
+
+.customBlog {
+    background-color: #a4ffaf;
 }
 
 .flex-auto {
