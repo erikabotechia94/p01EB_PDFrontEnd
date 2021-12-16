@@ -2,439 +2,427 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+
+    <!--GOOGLE FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--BOOSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!--FAVICON ICO-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+
+    <!--FONT AWESOME-->
+    <script src="https://use.fontawesome.com/ebc1616b1a.js"></script>
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../res/CSS/stylesheetAll.css" />
     <link rel="stylesheet" href="estilos.css">
 
 </head>
 
-<body class="bg-warning">
-    <div class="container-fluid bg-primary">
-        <div class="row bg-primary">
-            <nav class="navbar navbar-expand-lg navbarCustomize">
-                <a class="navbar-brand" href="#">
-                    <img src="../res/img/img01_brandLogo.png" alt="code notes logo" width="30" height="24">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <i class="bi bi-arrow-down-left-square-fill text-success"></i>
-             </span>
-           </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navCustomText">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BR-ARG</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   CODE NOTES
-                 </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item lenguajeName" href="#">HTML</a></li>
-                                <li><a class="dropdown-item tpLink" href="#">TP #01</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item  lenguajeName" href="#">CSS</a></li>
-                                <li><a class="dropdown-item tpLink" href="#">TP #02</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item  lenguajeName" href="#">JS BASICO</a></li>
-                                <li><a class="dropdown-item tpLink" href="#">TP #03</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AGRADECIMIENTOS</a>
-                        </li>
-                    </ul>
+<body class="backgroundCustom">
+    <nav class="navbar navbar-expand-lg navbarCustomize" style="margin-top: 1.2rem;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="codeNotes.html">
+                <img src="../res/img/img01_brandLogo.png" alt="code notes logo" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="bi bi-arrow-down-left-square-fill text-success"></i>
+           </span>
+         </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navCustomText">
+                    <li class="nav-item">
+                        <a class="linkMenu nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkMenu nav-link" href="#">BR-ARG</a>
+                    </li>
+                    <li class="linkMenu nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          FRONT-END #21
+                      </a>
+
+                        <ul class="linkDPrincipal dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="linkDprincipal dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item tpLink" href="#">TP #01</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="linkDprincipal dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item tpLink" href="#">TP #02</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="linkDprincipal dropdown-item" href="#">JS BASICO</a></li>
+                            <li><a class="dropdown-item tpLink" href="#">TP #03</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AGRADECIMIENTOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+    </nav>
+
+
+    <div class="row row-cols-1 row-cols-md-2 lg-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/a.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">a</h5>
+                    <p class="card-text">Define un hipervínculo .</p>
                 </div>
+            </div>
         </div>
-        </nav>
-
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/var.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Var </h5>
-                            <p class="card-text">Define una variable .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/doctype.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">!DOCTYPE</h5>
-                            <p class="card-text">Define el tipo de documento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/wbr.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">wbr</h5>
-                            <p class="card-text">Definición de salto en línea</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/ul.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">ul</h5>
-                            <p class="card-text">Definicion de lista desordenada.</p>
-                        </div>
-                    </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/abbr.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> abbr</h5>
+                    <p class="card-text">Define una abreviación.</p>
                 </div>
             </div>
-
-
-            <div class="row row-cols-1 row-cols-md-2 lg-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/a.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">a</h5>
-                            <p class="card-text">Define un hipervínculo .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/abbr.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> abbr</h5>
-                            <p class="card-text">Define una abreviación.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/adress.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Address </h5>
-                            <p class="card-text"> Define la información de contacto del autor / propietario del documento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/area.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Area </h5>
-                            <p class="card-text"> Define un área dentro de un mapa de imagen.</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/adress.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Address </h5>
+                    <p class="card-text"> Define la información de contacto del autor / propietario del documento.</p>
                 </div>
             </div>
-
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/article.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Article </h5>
-                            <p class="card-text"> Define un articulo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/aside.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Aside </h5>
-                            <p class="card-text"> Define el contenido lateral del contenedor de una página.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/audio.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> audio</h5>
-                            <p class="card-text"> Define contenido de sonido.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/b.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> b </h5>
-                            <p class="card-text"> Define texto en negrita.</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/area.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Area </h5>
+                    <p class="card-text"> Define un área dentro de un mapa de imagen.</p>
                 </div>
             </div>
+        </div>
+    </div>
 
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/base.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> base </h5>
-                            <p class="card-text"> Especifica la base donde se abrirán todas las URL del documento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/bdi.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> bdi </h5>
-                            <p class="card-text"> Aísla una parte del texto que puede tener un formato diferente del texto externo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/bdo.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> bdo</h5>
-                            <p class="card-text"> Sobreescribe la dirección del texto.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/blockquote.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">blockquote</h5>
-                            <p class="card-text"> Define una sección que tiene otra fuente.</p>
-                        </div>
-                    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/article.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Article </h5>
+                    <p class="card-text"> Define un articulo.</p>
                 </div>
             </div>
-
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/body.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Body </h5>
-                            <p class="card-text"> Define el cuerpo del documento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/br.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Br </h5>
-                            <p class="card-text">Define un salto de línea .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/button.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Button </h5>
-                            <p class="card-text"> Define un botón clickeable .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/canvas.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Canvas</h5>
-                            <p class="card-text">Se usa para dibujar gráficos en pantalla .</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/aside.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Aside </h5>
+                    <p class="card-text"> Define el contenido lateral del contenedor de una página.</p>
                 </div>
             </div>
-
-
-
-
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/caption.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Caption</h5>
-                            <p class="card-text"> Define el título de una tabla.</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/audio.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> audio</h5>
+                    <p class="card-text"> Define contenido de sonido.</p>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/cite.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Cite</h5>
-                            <p class="card-text"> Define el título de un trabajo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/code.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Code</h5>
-                            <p class="card-text"> Define un trozo de código de programación.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/coulgroup.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Col</h5>
-                            <p class="card-text"> Especifica las propiedades de la columna para cada columna del elemento colgroup.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/coulgroup.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Colgroup</h5>
-                            <p class="card-text"> Especifica un grupo de una o más columnas de una tabla.</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/b.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> b </h5>
+                    <p class="card-text"> Define texto en negrita.</p>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/command.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Command</h5>
-                            <p class="card-text"> Define un botón command al que un usuario puede invocar.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/datalist.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Detalist</h5>
-                            <p class="card-text"> Especifica en un input una lista pre-definida de opciones.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/dd.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Dd</h5>
-                            <p class="card-text"> Define la descripción de un ítem en una lista de definición.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+        </div>
+    </div>
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/del.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Del </h5>
-                            <p class="card-text">Define un texto que ha sido definido en un documento .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/details.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Details </h5>
-                            <p class="card-text"> Define detalles adicionales que el usuario puede ver o esconder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/dfn.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Dfn </h5>
-                            <p class="card-text">Define el término de una definición .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/dialog.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> Dialog </h5>
-                            <p class="card-text"> Define una caja o ventana de dialogo .</p>
-                        </div>
-                    </div>
-                </div>
 
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/base.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> base </h5>
+                    <p class="card-text"> Especifica la base donde se abrirán todas las URL del documento.</p>
+                </div>
             </div>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/div.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Div</h5>
-                            <p class="card-text"> Define una sección en un documento .</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/bdi.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> bdi </h5>
+                    <p class="card-text"> Aísla una parte del texto que puede tener un formato diferente del texto externo.</p>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/dl.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> dl </h5>
-                            <p class="card-text"> Define una lista de definición .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/dl.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> dt </h5>
-                            <p class="card-text"> Define un término (un ítem) en una lista de definición .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/em.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">em</h5>
-                            <p class="card-text">Define énfasis en un texto .</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/embed.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"> embed </h5>
-                            <p class="card-text"> Define el contenedor de una aplicación externa (no html) .</p>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/bdo.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> bdo</h5>
+                    <p class="card-text"> Sobreescribe la dirección del texto.</p>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src=img/fieldset.JPG " class="card-img-top " alt="... ">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/blockquote.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">blockquote</h5>
+                    <p class="card-text"> Define una sección que tiene otra fuente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/body.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Body </h5>
+                    <p class="card-text"> Define el cuerpo del documento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/br.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Br </h5>
+                    <p class="card-text">Define un salto de línea .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/button.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Button </h5>
+                    <p class="card-text"> Define un botón clickeable .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/canvas.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Canvas</h5>
+                    <p class="card-text">Se usa para dibujar gráficos en pantalla .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/caption.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Caption</h5>
+                    <p class="card-text"> Define el título de una tabla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/cite.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cite</h5>
+                    <p class="card-text"> Define el título de un trabajo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/code.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Code</h5>
+                    <p class="card-text"> Define un trozo de código de programación.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/coulgroup.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Col</h5>
+                    <p class="card-text"> Especifica las propiedades de la columna para cada columna del elemento colgroup.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/coulgroup.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Colgroup</h5>
+                    <p class="card-text"> Especifica un grupo de una o más columnas de una tabla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/command.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Command</h5>
+                    <p class="card-text"> Define un botón command al que un usuario puede invocar.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/datalist.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Detalist</h5>
+                    <p class="card-text"> Especifica en un input una lista pre-definida de opciones.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/dd.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Dd</h5>
+                    <p class="card-text"> Define la descripción de un ítem en una lista de definición.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/del.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Del </h5>
+                    <p class="card-text">Define un texto que ha sido definido en un documento .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/details.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Details </h5>
+                    <p class="card-text"> Define detalles adicionales que el usuario puede ver o esconder.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/dfn.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Dfn </h5>
+                    <p class="card-text">Define el término de una definición .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/dialog.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Dialog </h5>
+                    <p class="card-text"> Define una caja o ventana de dialogo .</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/div.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Div</h5>
+                    <p class="card-text"> Define una sección en un documento .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/dl.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> dl </h5>
+                    <p class="card-text"> Define una lista de definición .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/dl.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> dt </h5>
+                    <p class="card-text"> Define un término (un ítem) en una lista de definición .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/em.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">em</h5>
+                    <p class="card-text">Define énfasis en un texto .</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/embed.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> embed </h5>
+                    <p class="card-text"> Define el contenedor de una aplicación externa (no html) .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src=img/fieldset.JPG " class="card-img-top " alt="... ">
           <div class="card-body ">
             <h5 class="card-title "> Fieldset </h5>
             <p class="card-text "> Grupo de elementos relacionado en un formulario .</p>
